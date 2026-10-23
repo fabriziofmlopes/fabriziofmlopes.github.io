@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Entre em contato | Gestão de Higienização</title>
+  <meta name="description" content="Envie uma mensagem à equipe responsável pela Gestão de Higienização.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">Gestão de Higienização</p>
+    <h1>Entre em contato</h1>
+    <p>Envie sua dúvida ou mensagem pelo formulário abaixo.</p>
+    <form class="contact-form" action="https://formspree.io/f/xvkkoyqe" method="POST">
+      <label for="name">Nome</label>
+      <input id="name" name="name" type="text" autocomplete="name" required>
+      <label for="email">Seu e-mail</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+      <p class="form-note">Ao enviar, seus dados serão tratados conforme a <a href="privacidade.html">política de privacidade</a>.</p>
+      <button type="submit">Enviar mensagem</button>
+    </form>
+    <footer><a href="index.html">Voltar à página inicial</a><span aria-hidden="true">·</span><a href="privacidade.html">Política de privacidade</a></footer>
+  </main>
+</body>
+</html>
